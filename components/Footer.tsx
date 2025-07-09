@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 const Footer = () => {
   return (
@@ -7,11 +8,13 @@ const Footer = () => {
         <div className="md:flex md:justify-between">
           <div className="mb-6 md:mb-0">
             <a href="https://flowbite.com/" className="flex items-center">
-              <img
+             <Image
                 src="https://flowbite.com/docs/images/logo.svg"
-                className="h-8 me-3"
                 alt="FlowBite Logo"
-              />
+                width={32} // Replace with the actual width of the image
+                height={32} // Replace with the actual height of the image
+                className="h-8 me-3"
+              /> 
               <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
                 Flowbite
               </span>

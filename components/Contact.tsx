@@ -44,12 +44,12 @@ const Contact = () => {
             </div>
 
             <p className="leading-7 text-gray-300">
-            Let's connect!  I'm always open to discussing new projects and opportunities. 
-           Reach out to me using the button below.
+              Let&#39;s connect! I&#39;m always open to discussing new projects and opportunities.
+              Reach out to me using the button below.
             </p>
             <br />
             <a
-              href="mailto:pjmasoka@gmail.com" 
+              href="mailto:pjmasoka@gmail.com"
               className="btn bg-yellow-700 hover:bg-yellow-500 text-white"
             >
               Hire Me
