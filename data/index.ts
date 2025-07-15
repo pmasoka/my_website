@@ -51,31 +51,6 @@ export const navItems = [
   },
 ];
 
-export const projectsItems = [
-  {
-    title: "Metbank Internet Banking",
-    image: ProjectImg4,
-    slug: "metbank-internet-banking",
-    description: "Metbank Internet Banking is a secure, user-focused web application that allows customers to manage their bank accounts from anywhere in the world",
-    languages: ["Laravel 10", "JavaScript", "React", "Node.js"] 
-  },
-  {
-    title: "Netflix Clone",
-    image: ProjectImg5,
-    slug: "netflix-clone",
-    description: "Netflix Clone is a web application that replicates the core features of the popular streaming platform Netflix. The system has got 2 sides the frontend which is the user side and the backend side which is the admin side",
-    languages: ["Laravel 11", "Filament", "Tailwind CSS", "mySQL"] 
-  },
-  {
-    title: "OFF-Campus Housing Reservation System",
-    image: ProjectImg6,
-    slug: "off-campus-housing-reservation-system",
-    description: "OFF-Campus Housing Reservation System is a platform designed to assist students in finding and reserving off-campus housing efficiently in Zimbabwe.",
-    languages: ["Laravel 10", "Javascript", "mySQL", "Tailwind CSS"] 
-  },
-];
-
-
 export const skillsItems = [
   {
     name: "Laravel",
@@ -133,6 +108,30 @@ export const servicesItems = [
     description:
       "Familiar with blockchain concepts and Solidity, capable of developing smart contracts.",
     logo: Logo3,
+  },
+];
+
+export const projectsItems = [
+  {
+    title: "Metbank Internet Banking",
+    image: ProjectImg4,
+    slug: "metbank-internet-banking",
+    description: "Metbank Internet Banking is a secure, user-focused web application that allows customers to manage their bank accounts from anywhere in the world",
+    languages: ["Laravel 10", "JavaScript", "React", "Node.js"]
+  },
+  {
+    title: "Netflix Clone",
+    image: ProjectImg5,
+    slug: "netflix-clone",
+    description: "Netflix Clone is a web application that replicates the core features of the popular streaming platform Netflix. The system has got 2 sides the frontend which is the user side and the backend side which is the admin side",
+    languages: ["Laravel 11", "Filament", "Tailwind CSS", "mySQL"]
+  },
+  {
+    title: "OFF-Campus Housing Reservation System",
+    image: ProjectImg6,
+    slug: "off-campus-housing-reservation-system",
+    description: "OFF-Campus Housing Reservation System is a platform designed to assist students in finding and reserving off-campus housing efficiently in Zimbabwe.",
+    languages: ["Laravel 10", "Javascript", "mySQL", "Tailwind CSS"]
   },
 ];
 
