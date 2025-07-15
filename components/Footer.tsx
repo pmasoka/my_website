@@ -56,10 +56,10 @@ const Footer = () => {
                 </li>
                 <li>
                   <a
-                    href="https://discord.gg/4eeurUVvTy"
+                    href="https://www.linkedin.com/feed/?trk=guest_homepage-basic_google-one-tap-submit"
                     className="hover:underline"
                   >
-                    Instagram
+                    LinkedIn
                   </a>
                 </li>
               </ul>
@@ -113,7 +113,7 @@ const Footer = () => {
               <span className="sr-only">Facebook page</span>
             </a>
             <a
-              href="#"
+              href="https://www.facebook.com/profile.php?id=100093662207167"
               className="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5"
             >
               <svg
