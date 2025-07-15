@@ -94,7 +94,7 @@ const Footer = () => {
           </span>
           <div className="flex mt-4 sm:justify-center sm:mt-0">
             <a
-              href="#"
+              href="https://www.facebook.com/profile.php?id=100093662207167"
               className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
             >
               <svg
@@ -113,7 +113,7 @@ const Footer = () => {
               <span className="sr-only">Facebook page</span>
             </a>
             <a
-              href="https://www.facebook.com/profile.php?id=100093662207167"
+              href="#"
               className="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5"
             >
               <svg

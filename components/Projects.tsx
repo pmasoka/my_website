@@ -1,18 +1,21 @@
 "use client";
-import { useRouter } from "next/navigation"; // Import useRouter
+import { useRouter } from "next/navigation";
 import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Pagination } from "swiper/modules";
+// Import Autoplay module along with Pagination
+import { Pagination, Autoplay } from "swiper/modules"; // <--- MODIFIED
 import { projectsItems } from "@/data";
 import ProjectsSVG from "@/public/svg/projects.svg";
 import "swiper/css";
 import "swiper/css/pagination";
+// Import Autoplay CSS if you want its specific styles (though often not strictly necessary for basic autoplay)
+// import 'swiper/css/autoplay'; // Optional, but good practice
 
 const Projects = () => {
-  const router = useRouter(); // Initialize the router
+  const router = useRouter();
 
   const handleReadMore = (slug: string) => {
-    router.push(`/projects/${slug}`); // Redirect to the respective project page based on slug
+    router.push(`/projects/${slug}`);
   };
 
   return (
@@ -37,7 +40,14 @@ const Projects = () => {
           <Swiper
             pagination={{ clickable: true }}
             spaceBetween={20}
-            modules={[Pagination]}
+            // Add Autoplay to the modules array
+            modules={[Pagination, Autoplay]} // <--- MODIFIED
+            // Configure autoplay behavior
+            autoplay={{
+              delay: 3000, // Time in ms between slides (e.g., 3 seconds)
+              disableOnInteraction: false, // Keep autoplaying even if user interacts
+              // pauseOnMouseEnter: true, // Optional: pause autoplay on mouse hover
+            }} // <--- ADDED
             className="rounded-3xl pb-16 max-w-xs shadow-lg shadow-yellow-700 self-start"
           >
             {projectsItems.map((item, index) => (
@@ -52,7 +62,7 @@ const Projects = () => {
                   </h5>
                   <button
                     className="font-bold text-gray-500 self-end"
-                    onClick={() => handleReadMore(item.slug)} // Call the redirect function
+                    onClick={() => handleReadMore(item.slug)}
                   >
                     READ MORE
                   </button>
