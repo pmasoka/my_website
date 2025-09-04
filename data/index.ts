@@ -67,19 +67,19 @@ export const skillsItems = [
   {
     name: "Vue",
     description:
-      "I have basic knowledge of Vue.",
+      "Proficient in Vue for developing web applications.",
     logo: Vue,
   },
   {
     name: "ViteJS",
     description:
-      "Proficient in ViteJS for building web applications..",
+      "Proficient in ViteJS for building web applications.",
     logo: ViteJS,
   },
   {
     name: "Python",
     description:
-      "I have basic knowledge of Python.",
+      "Proficient in Python for building web applications and other applications.",
     logo: Python,
   },
   {
@@ -100,7 +100,7 @@ export const servicesItems = [
   {
     title: "Mobile Development",
     description:
-      "I have foundational knowledge of Flutter, enabling the creation of basic applications with features like login, registration and so on.",
+      "My expertise in Flutter enables the development of full-featured, scalable applications, including secure authentication and dynamic user interfaces.",
     logo: Logo2,
   },
   {
