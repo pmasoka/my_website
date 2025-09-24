@@ -139,7 +139,7 @@ export const projectsItems = [
     image: ProjectImg7,
     slug: "inventory-management-system",
     description: "This is an Inventory Management System using Laravel as the backend framework and also caching system of Redis. The system incorporates a hybrid database approach utilizing both PostgreSQL and MongoDB. Additionally, it implements a frontend framework Vue for the user interface.",
-    languages: ["Laravel 12", "Vue", "PGSQL", "MongoDB", "Redis"]
+    languages: ["Laravel 12", "Vue", "ShadCN", "Inertia js", "PGSQL", "MongoDB", "Redis"]
   },
 ];
 
