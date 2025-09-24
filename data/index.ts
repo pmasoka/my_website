@@ -9,6 +9,7 @@ import {
 import ProjectImg4 from "@/public/img/project11.png";
 import ProjectImg5 from "@/public/img/project12.png";
 import ProjectImg6 from "@/public/img/project13.png";
+import ProjectImg7 from "@/public/img/project14.png";
 import Logo1 from "@/public/img/logo1.png";
 import Logo2 from "@/public/img/logo2.png";
 import Logo3 from "@/public/img/logo3.png";
@@ -132,6 +133,13 @@ export const projectsItems = [
     slug: "off-campus-housing-reservation-system",
     description: "OFF-Campus Housing Reservation System is a platform designed to assist students in finding and reserving off-campus housing efficiently in Zimbabwe.",
     languages: ["Laravel 10", "Javascript", "mySQL", "Tailwind CSS"]
+  },
+  {
+    title: "Inventory Management System Development",
+    image: ProjectImg7,
+    slug: "inventory-management-system",
+    description: "This is an Inventory Management System using Laravel as the backend framework and also caching system of Redis. The system incorporates a hybrid database approach utilizing both PostgreSQL and MongoDB. Additionally, it implements a frontend framework Vue for the user interface.",
+    languages: ["Laravel 12", "Vue", "PGSQL", "MongoDB", "Redis"]
   },
 ];
 
