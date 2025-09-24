@@ -56,7 +56,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <a
-                    href="https://www.linkedin.com/feed/?trk=guest_homepage-basic_google-one-tap-submit"
+                    href="https://www.linkedin.com/in/patrick-junior-masoka-1b173a264/"
                     className="hover:underline"
                   >
                     LinkedIn

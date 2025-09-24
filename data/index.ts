@@ -143,7 +143,7 @@ export const testimonialsItems = [
     image: Avatar1,
   },
   {
-    name: "Brighton Dube, Supervisor",
+    name: "Brighton D, Supervisor",
     review:
       "Patrick, whom I supervised, consistently delivers high-quality websites on time and possesses excellent API development skills. I highly recommend his talented and reliable web development services.",
     image: Avatar2,
