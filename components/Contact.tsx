@@ -49,7 +49,9 @@ const Contact = () => {
             </p>
             <br />
             <a
-              href="mailto:pjmasoka@gmail.com"
+              href="https://mail.google.com/mail/?view=cm&fs=1&to=pjmasoka@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
               className="btn bg-yellow-700 hover:bg-yellow-500 text-white"
             >
               Hire Me
