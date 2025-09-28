@@ -175,7 +175,7 @@ export const blogPosts = [
     title: "Launch Your Professional Online Presence in 7 Days",
     description:
       "Stop losing customers to outdated websites! Get a modern, mobile-optimized web application powered by Strikingly from USA that drives real business results.",
-    image: "/img/blog/blog-01.jpg",
+    image: "/img/blog/blog-01.png",
     blogimage: "/img/blog/blog-details-02.jpg",
     authorName: "Patrick J Masoka",
     authorImage: "/img/blog/author-01.png",
