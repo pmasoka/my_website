@@ -30,8 +30,8 @@ export default function Home() {
       <Services />
       <Projects />
       <Testimonials />
-      <Contact />
       <Blog />
+      <Contact />
       <Footer />
     </div>
   );
