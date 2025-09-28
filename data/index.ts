@@ -169,3 +169,39 @@ export const testimonialsItems = [
     image: Avatar4,
   },
 ];
+
+export const blogPosts = [
+  {
+    title: "Launch Your Professional Online Presence in 7 Days",
+    description:
+      "Stop losing customers to outdated websites! Get a modern, mobile-optimized web application powered by Strikingly from USA that drives real business results.",
+    image: "/img/blog/blog-01.jpg",
+    blogimage: "/img/blog/blog-details-02.jpg",
+    authorName: "Patrick J Masoka",
+    authorImage: "/img/blog/author-01.png",
+    date: "October 1, 2025",
+    slug: "strikingly-launch-offer",
+    tags: ["Business", "Web App", "Strikingly"],
+    content: `
+      <h2>Tired of Complex, Expensive Web Projects?</h2>
+      <p>In the digital age, your website <em>is</em> your storefront. If it's slow, not mobile-friendly, or difficult to update, you're missing out on serious revenue. Traditional web development can be a confusing, months-long, and costly process.</p>
+
+      <h2>The Strikingly Advantage: Fast, Sleek, and Effective</h2>
+      <p>We leverage the power and simplicity of the <strong>Strikingly</strong> platform to deliver high-impact web applications quickly. You get a stunning, one-page or multi-page site that's:</p>
+      <ul>
+        <li>✅ <strong>100% Mobile-Ready:</strong> Looks perfect on every phone and tablet.</li>
+        <li>✅ <strong>SEO Optimized:</strong> Built to rank well and be found by customers.</li>
+        <li>✅ <strong>Simple to Manage:</strong> Easily make updates yourself after launch—no coding required!</li>
+      </ul>
+
+      <h2>What We Deliver for You:</h2>
+<p>
+  Our comprehensive service includes professional design, content structure, e-commerce integration (if needed), domain setup, and a personalized handover session. <strong>Launch in as little as 7 days</strong> and start seeing the difference a professional online presence makes. <a href="mailto:pjmasoka@gmail.com">Request a free consultation today!</a>
+</p>
+    `,
+    ctaLink: "https://www.strikingly.com/a/5hXD4j",
+  },
+];
+
+
+
