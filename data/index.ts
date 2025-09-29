@@ -172,7 +172,7 @@ export const testimonialsItems = [
 
 export const blogPosts = [
   {
-    title: "Launch Your Professional Online Presence in 7 Days",
+    title: "Launch Your Professional Online Presence in 3 Days or Less",
     description:
       "Stop losing customers to outdated websites! Get a modern, mobile-optimized web application powered by Strikingly from USA that drives real business results.",
     image: "/img/blog/blog-01.png",
