@@ -4,6 +4,7 @@ import "aos/dist/aos.css";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
+import Qualifications from "@/components/Qualifications";
 import Blog from "@/components/Blog";
 import Navbar from "@/components/Navbar";
 import Projects from "@/components/Projects";
@@ -31,6 +32,7 @@ export default function Home() {
       <Projects />
       <Testimonials />
       <Blog />
+      <Qualifications/>
       <Contact />
       <Footer />
     </div>

@@ -8,6 +8,7 @@ const Blog = () => {
   return (
     <section className="min-h-fit bg-gray-800" id="blog">
       <div className="px-5 py-14 md:container">
+        {/* Section Title */}
         <h2 className="title text-yellow-500" data-aos="fade-down">
           Blog
         </h2>
@@ -16,26 +17,27 @@ const Blog = () => {
         </h4>
         <br />
 
+        {/* Blog Grid */}
         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-          {blogPosts.map((post, index) => (
+          {blogPosts.map((post) => (
             <Link
-              key={index}
+              key={post.slug}
               href={`/blog/${post.slug}`}
               className="group relative flex flex-col rounded-md border-2 border-yellow-700 bg-gray-950 shadow-md duration-200 hover:border-yellow-500"
               data-aos="fade-up"
-              data-aos-delay={index * 300}
             >
               {/* Blog Image */}
               <div className="relative h-56 w-full overflow-hidden rounded-t-md">
                 <Image
                   src={post.image}
-                  alt={post.title}
+                  alt={`Cover image for ${post.title}`}
                   fill
+                  loading="lazy"
                   className="object-cover duration-300 group-hover:scale-110"
                 />
               </div>
 
-              {/* Content */}
+              {/* Blog Content */}
               <div className="flex flex-col flex-1 p-5">
                 <h3 className="text-lg font-semibold text-gray-100 group-hover:font-bold">
                   {post.title}
@@ -43,16 +45,18 @@ const Blog = () => {
                 <p className="mt-2 text-sm text-gray-300">{post.description}</p>
 
                 {/* Tags */}
-                <div className="mt-3 flex flex-wrap gap-2">
-                  {post.tags.map((tag, i) => (
-                    <span
-                      key={i}
-                      className="rounded-md bg-yellow-700/20 px-2 py-1 text-xs text-yellow-400"
-                    >
-                      {tag}
-                    </span>
-                  ))}
-                </div>
+                {post.tags?.length > 0 && (
+                  <div className="mt-3 flex flex-wrap gap-2">
+                    {post.tags.map((tag) => (
+                      <span
+                        key={tag}
+                        className="rounded-md bg-yellow-700/20 px-2 py-1 text-xs text-yellow-400"
+                      >
+                        {tag}
+                      </span>
+                    ))}
+                  </div>
+                )}
 
                 {/* Author + Date */}
                 <div className="mt-4 flex items-center gap-3">
@@ -61,6 +65,7 @@ const Blog = () => {
                     alt={post.authorName}
                     width={35}
                     height={35}
+                    loading="lazy"
                     className="rounded-full"
                   />
                   <div>
