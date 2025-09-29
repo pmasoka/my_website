@@ -179,7 +179,7 @@ export const blogPosts = [
     blogimage: "/img/blog/blog-details-02.jpg",
     authorName: "Patrick J Masoka",
     authorImage: "/img/blog/author-01.png",
-    date: "October 1, 2025",
+    date: "September 1, 2025",
     slug: "strikingly-launch-offer",
     tags: ["Business", "Web App", "Strikingly"],
     content: `
