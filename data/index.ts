@@ -196,7 +196,7 @@ export const blogPosts = [
 
       <h2>What We Deliver for You:</h2>
       <p>
-        Our comprehensive service includes professional design, content structure, e-commerce integration (if needed), domain setup, and a personalized handover session. <strong>Launch in as little as 7 days</strong> and start seeing the difference a professional online presence makes. 
+        Our comprehensive service includes professional design, content structure, e-commerce integration (if needed), domain setup, and a personalized handover session. <strong>Launch in as little as 3 days or less</strong> and start seeing the difference a professional online presence makes. 
         <a href="https://mail.google.com/mail/?view=cm&fs=1&to=pjmasoka@gmail.com" target="_blank" rel="noopener noreferrer">Request a free consultation today!</a>
       </p>
     `,

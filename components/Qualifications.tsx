@@ -5,8 +5,7 @@ const Qualifications = () => {
     {
       title: "Bachelor of Science in Information Systems (Honours)",
       details: [
-        "Degree Class: 2.1",
-        "Period: 2024",
+        "Period: 2020 - 2024",
         "Institution: Manicaland State University Of Applied Sciences",
       ],
       delay: 300,
