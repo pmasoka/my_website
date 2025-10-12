@@ -147,8 +147,9 @@ export const projectsItems = [
   title: "BBConstructionsHoldings business website",
   image: ProjectImg8,
   slug: "bbconstructionsholdings",
-  description: "A business website for BBConstructionHoldings, which offers a diverse range of services including **construction, irrigation, and civil engineering**. The site also highlights the provision of **online hardware, grocery shopping, transportation, motor spares, tyre services, construction management, security, and stationary supplies**. Built using Next.js and Tailwind CSS.",
-  languages: ["NextJS", "Tailwind CSS"]
+  description:
+    'A business website for BBConstructionHoldings, which offers a diverse range of services including construction, irrigation, and civil engineering. The site also highlights the provision of online hardware, grocery shopping, transportation, motor spares, tyre services, construction management, security, and stationary supplies. Built using Next.js and Tailwind CSS. Visit: <a href="https://www.bbconstructionholdings.co.zw/" target="_blank" rel="noopener noreferrer">bbconstructionholdings.co.zw</a>',
+  languages: ["NextJS", "Tailwind CSS"],
 },
 ];
 
