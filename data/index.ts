@@ -10,6 +10,7 @@ import ProjectImg4 from "@/public/img/project11.png";
 import ProjectImg5 from "@/public/img/project12.png";
 import ProjectImg6 from "@/public/img/project13.png";
 import ProjectImg7 from "@/public/img/project14.png";
+import ProjectImg8 from "@/public/img/project15.png";
 import Logo1 from "@/public/img/logo1.png";
 import Logo2 from "@/public/img/logo2.png";
 import Logo3 from "@/public/img/logo3.png";
@@ -141,6 +142,13 @@ export const projectsItems = [
     description: "This is an Inventory Management System using Laravel as the backend framework and also caching system of Redis. The system incorporates a hybrid database approach utilizing both PostgreSQL and MongoDB. Additionally, it implements a frontend framework Vue for the user interface.",
     languages: ["Laravel 12", "Vue", "ShadCN", "Inertia js", "PGSQL", "MongoDB", "Redis"]
   },
+{
+  title: "BBConstructionsHoldings business website",
+  image: ProjectImg8,
+  slug: "bbconstructionsholdings",
+  description: "A business website for BBConstructionHoldings, which offers a diverse range of services including **construction, irrigation, and civil engineering**. The site also highlights the provision of **online hardware, grocery shopping, transportation, motor spares, tyre services, construction management, security, and stationary supplies**. Built using Next.js and Tailwind CSS.",
+  languages: ["NextJS", "Tailwind CSS"]
+},
 ];
 
 export const testimonialsItems = [
