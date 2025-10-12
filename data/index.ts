@@ -23,6 +23,7 @@ import React from "@/public/svg/react.svg";
 import Vue from "@/public/svg/vue-9.svg";
 import ViteJS from "@/public/svg/vitejs.svg";
 import Python from "@/public/svg/python.svg";
+import NextJS from "@/public/svg/nextjs.svg";
 import Node from "@/public/svg/node.svg";
 
 export const navItems = [
@@ -88,7 +89,7 @@ export const skillsItems = [
     name: "NextJS",
     description:
       "Proficient in NextJS for building web applications.",
-    logo: Python,
+    logo: NextJS,
   },
 ];
 
