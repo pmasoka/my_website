@@ -114,10 +114,10 @@ export const servicesItems = [
 
 export const projectsItems = [
   {
-    title: "Metbank Internet Banking",
+    title: "A banks Internet Banking",
     image: ProjectImg4,
-    slug: "metbank-internet-banking",
-    description: "Metbank Internet Banking is a secure, user-focused web application that allows customers to manage their bank accounts from anywhere in the world",
+    slug: "banks-internet-banking",
+    description: "this is a banks Internet Banking which is a secure, user-focused web application that allows customers to manage their bank accounts from anywhere in the world",
     languages: ["Laravel 10", "JavaScript", "React", "Node.js"]
   },
   {
