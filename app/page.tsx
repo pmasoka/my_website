@@ -1,17 +1,20 @@
+// app/page.tsx
 "use client";
+
+import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+
+import Navbar from "@/components/Navbar";
+import Hero from "@/components/Hero";
+import Skills from "@/components/Skills";
+import Services from "@/components/Services";
+import Projects from "@/components/Projects";
+import Testimonials from "@/components/Testimonials";
+import Blog from "@/components/Blog";
+import Qualifications from "@/components/Qualifications";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
-import Hero from "@/components/Hero";
-import Qualifications from "@/components/Qualifications";
-import Blog from "@/components/Blog";
-import Navbar from "@/components/Navbar";
-import Projects from "@/components/Projects";
-import Services from "@/components/Services";
-import Skills from "@/components/Skills";
-import Testimonials from "@/components/Testimonials";
-import { useEffect } from "react";
 
 export default function Home() {
   useEffect(() => {
@@ -21,18 +24,17 @@ export default function Home() {
       disable: "mobile",
     });
   }, []);
+
   return (
     <div className="bg-gray-950">
-      {/* Navbar */}
       <Navbar />
-      {/* Hero */}
       <Hero />
       <Skills />
       <Services />
       <Projects />
       <Testimonials />
       <Blog />
-      <Qualifications/>
+      <Qualifications />
       <Contact />
       <Footer />
     </div>
