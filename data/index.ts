@@ -157,7 +157,7 @@ export const testimonialsItems = [
   {
     name: "Gomwe",
     review:
-      "As a busy entrepreneur, I needed a website that was both professional and easy for me to update. I was impressed with Patrick's ability to understand my vision and deliver a site that perfectly reflects my brand. Highly recommend!",
+      "As a busy entrepreneur, I needed a website that was both professional and easy for me to use. I was impressed with Patrick's ability to understand my vision and deliver a site that perfectly reflects my brand. Highly recommend!",
     image: Avatar1,
   },
   {
