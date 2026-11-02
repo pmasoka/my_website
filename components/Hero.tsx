@@ -58,7 +58,7 @@ const Hero = () => {
                                 transition={{ delay: 0.2 }}
                                 className="flex items-center gap-4"
                             >
-                                <h3 className="text-2xl text-gray-100">2+</h3>
+                                <h3 className="text-2xl text-gray-100">4+</h3>
                                 <p className="text-gray-200">Years of experience</p>
                             </motion.div>
 
@@ -68,7 +68,7 @@ const Hero = () => {
                                 transition={{ delay: 0.4 }}
                                 className="flex items-center gap-4"
                             >
-                                <h3 className="text-2xl text-gray-100">10+</h3>
+                                <h3 className="text-2xl text-gray-100">20+</h3>
                                 <p className="text-gray-200">Projects created</p>
                             </motion.div>
 

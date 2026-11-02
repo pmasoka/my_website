@@ -38,7 +38,7 @@ const Contact = () => {
                   className="space-y-2 text-yellow-600 font-medium leading-loose"
                 >
                   Patrick J Masoka <br />
-                  pjmasoka@gmail.com <br />+263 78 620 6635
+                  pjmasoka@gmail.com <br />+79 25 80 4886
                 </div>
               </address>
             </div>
